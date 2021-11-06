@@ -23,8 +23,8 @@ stages:
 - stage: QADeploy
   jobs:
   - job: QA Deploy Job
-  steps:
-  - bash: echo QA Deploy Job 
+    steps:
+    - bash: echo QA Deploy Job 
   
 - stage: ProdDeploy
   jobs:
